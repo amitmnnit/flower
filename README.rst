@@ -71,14 +71,14 @@ Config options
 --------------
 
 =====================================  =============================================================================================
-**Option**                             **Function**
+**Option**                             **Details**
 =====================================  =============================================================================================
-``port``                               ``Port from which to run the web app. default=5555``
-``address``                            ``Web app address``
-``debug``                              ``Set to True to run in debug mode. default=False``
-``inspect``                            ``Set to True to inspect workers. default=True``
-``inspect_timeout``                    ``Timeout for inspection(in milliseconds). default=1000``
-``auth``                               ``Comma separated list of emails/email pattern. Eg --auth=email1@example1.com,email2@example3.com,*@example3.com``
+port                                   Port from which to run the web app. default=5555
+address                                Web app address
+debug                                  Set to True to run in debug mode. default=False
+inspect                                Set to True to inspect workers. default=True
+inspect_timeout                        Timeout for inspection(in milliseconds). default=1000
+auth                                   Comma separated list of emails/email pattern. Eg --auth=email1@example1.com,email2@example3.com,*@example3.com
 =====================================  =============================================================================================
 
 
