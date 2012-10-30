@@ -67,6 +67,21 @@ Broker URL and other configuration options can be passed through the standard Ce
 
     $ celery flower --broker=amqp://guest:guest@localhost:5672//
 
+Config options
+--------------
+
+=====================================  =============================================================================================
+**Option**                             **Function**
+=====================================  =============================================================================================
+``port``                               ``Port from which to run the web app. default=5555``
+``address``                            ``Web app address``
+``debug``                              ``Set to True to run in debug mode. default=False``
+``inspect``                            ``Set to True to inspect workers. default=True``
+``inspect_timeout``                    ``Timeout for inspection(in milliseconds). default=1000``
+``auth``                               ``Comma separated list of emails/email pattern. Eg --auth=email1@example1.com,email2@example3.com,*@example3.com``
+=====================================  =============================================================================================
+
+
 Screenshots
 -----------
 
