@@ -78,7 +78,9 @@ address                                Web app address
 debug                                  Set to True to run in debug mode. default=False
 inspect                                Set to True to inspect workers. default=True
 inspect_timeout                        Timeout for inspection(in milliseconds). default=1000
-auth                                   Comma separated list of emails/email pattern. Eg --auth=email1@example1.com,email2@example3.com,*@example3.com
+auth                                   Comma separated list of emails/email pattern. Eg : ::
+                                       --auth=email1@example1.com,email2@example3.com,*@example3.completion
+                                       Please use *@domain.com for pattern matching. 
 =====================================  =============================================================================================
 
 
